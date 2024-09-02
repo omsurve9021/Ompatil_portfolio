@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar {
+    height:70px;
+    background-color:#0f1111; 
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav_logo{
+    height:50px;
+    width:100px;
+}
+
+.logo {
+    background-image: url("amz_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 98px;
+    
+}
+ .border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+/** box1 **/
+
+
+.address_first{
+    color:#cccccc;
+    font-size: 0.87rem;
+    margin-left:15px;
+}
+
+.address_second {
+    font-size:1rem;
+    margin-left: 3px;
+}
+.address_icon {
+    display: flex;
+    align-items: center;
+}
+
+/** box3**/
+.nav_search {
+    display:flex;
+    justify-content:space-evenly;
+    background-color:pink;
+    width: 620px;
+    height: 40px;
+    border-radius:4px;
+}
+.nav_search:hover {
+    border: 3px solid #fedb68;
+}
+
+.search_select{
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px ;
+    background-color:#f3f3f3;
+    width:45px;
+    text-align: center;
+    border: none;
+
+}
+.search_input {
+    width: 800px;
+    font-size: 1rem;
+    border: none;
+}
+.search_icon{
+    width:45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#fedb68;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    color:black;
+}
+/**box 4**/
+
+.sign_in{
+    font-size: 0.85rem;
+}
+
+.account {
+    font-weight: bold;
+}
+.size{
+    font-size: 2rem;
+}
+
+/**Nav Content**/
+
+.nav_content{
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.content_logo{
+    display:flex;
+    padding: 5px;
+}
+.all{
+    margin-left:10px;
+}
+.all1{
+    margin-left:5px;
+}
+.cart {
+    display: flex;
+}
+.cart1 {
+    margin-top: 15px;
+}
+.hero_section{
+    background-image: url("Hero_Image.jpg");
+    background-size:cover;
+    height:400px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+.hero_text{
+    background-color:#dfdfdf;
+    height:40px;
+    width:80%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 25px;
+}
+a{
+    color:#007185;
+}
+/**Shop Section **/
+.box {
+    height: 350px;
+    width:23%;
+    background-color:#fffbfb;
+    margin-top:10px;   
+}
+
+.content_section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+.box_image1 {
+    background-image: url("laptop_image.jpg");
+    background-size:cover; 
+}
+.box_image2 {
+    background-image: url("box_image.jpg");
+    background-size:cover; 
+}
+.box_image3 {
+    background-image: url("teddy_image.jpg");
+    background-size:cover; 
+}
+.box_image4 {
+    background-image: url("home_image.jpg");
+    background-size:cover; 
+}
+
+
+.image {
+    height:270px;
+    width:270px;
+    margin-left: 40px;
+}
+.content_section p{
+    color:#007185;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left:25px;
+}
+.content_section p:hover{
+    color:rgb(186, 40, 40);
+}
+.text{
+    margin-left:40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+/**content section 2**/
+
+.content_section2{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+.box_image5 {
+    background-image: url("beauty_image.jpg");
+    background-size:cover; 
+}
+.box_image6 {
+    background-image: url("watch_image.jpg");
+    background-size:cover; 
+}
+.box_image7 {
+    background-image: url("baby_toys.jpg");
+    background-size:cover; 
+}
+.box_image8 {
+    background-image: url("gaming.jpg");
+    background-size:cover; 
+}
+.content_section2 p{
+    color:#007185;
+    margin-bottom: 10px;
+    margin-top:10px;
+    margin-left:25px;
+}
+.content_section2 p:hover{
+    color:rgb(186, 40, 40);
+}
+.footer_panel{
+    background-color:#374553;
+    height:50px;
+    text-align:center;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    font-size:13px;
+}
+
+/** sign_in_box**/
+.sign_in_panel{
+    height:100px;
+    background-color:white;
+    color:black;
+    text-align: center;
+    border-top: 1px solid lightblue;
+    border-bottom:1px solid lightblue;
+    margin-top:50px;
+    align-items: center;
+    padding-top:50px;
+}
+.sign_in_button{
+    width:230px;
+    height:30px;
+    background-color:#e7be3b;
+    color:black;
+    border-radius:3px;
+    font-weight:bold;
+    font-size: 0.8rem;
+    margin-top:5px;
+    margin-bottom:3px;
+    border: 2px solid #b49221;
+
+
+}
+.sign_in_text{
+    font-size:0.8rem;
+}
+    
+.customer{
+    font-size:0.8rem;
+}
+.customer a{
+    color:#007185;
+}
+.sign_in_panel p{
+    font-size:1rem;
+}
+.foot_text {
+    font-weight:bold;
+}
+.footer_panel1{
+    background-color:#222f3d;
+    display: flex;
+    justify-content: space-evenly;
+    height:400px;
+    color:white;
+    
+}
+.footer_panel1 p{
+    margin-top:10px;
+}
+
+.footer_logo{
+    background-image: url("amz_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 98px; 
+    margin-left:500px; 
+}
+
+.footer_panel2{
+    background-color:#222f3d;
+    height:100px;
+    border-top:0.3px solid white;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    
+}
+.footer_buttons {
+    display:flex;
+}
+.fborder{
+    margin-left:50px;
+    color:white;
+    font-size:15px;
+}
+.footer_panel3{
+    background-color: #0f1111;
+    height:100px;
+    color:white;
+
+}
+.footer_notice {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.copyright{
+    text-align: center;
+}
